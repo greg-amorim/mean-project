@@ -1,0 +1,480 @@
+.header
+{
+  font-size: 50px;
+  background: #39002c;
+  padding-bottom: 0px;
+  width: 100%;
+  color: white;
+  line-height: 1em;
+  padding-top: 3%;
+  font-family: 'Luckiest Guy' , cursive;
+  padding-left: 8%;
+  display: inline-block;
+  padding-bottom: 1%;
+}
+
+.liste 
+{
+  background: #39002c;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+  font-family: 'Luckiest Guy' , cursive;
+}
+
+.liste span:hover
+{
+	color:grey;
+}
+
+header
+{
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	display: block;
+}
+
+.lien
+{
+	background: #39002c; cursor: pointer; color: white; 
+}
+
+.image_vetements
+{
+	width: 23.5%;
+	height: 30%;
+	display: inline-block;
+	opacity: 0.9;
+	padding-left: 1%;
+	padding-top: 1%;
+}	
+
+.image_collection
+{
+   display: inline-block;
+   opacity: 0.9;
+   width: 98%;
+   padding-left: 1%;
+   padding-right: 1%;
+   border-radius: 1em 1em 1em 1em;
+   margin-top: -2%;
+
+}
+
+.image_casquette
+{
+	width: 20%;
+	height: 30%;
+	display: inline-block;
+	opacity: 0.9;
+	padding-right: 1%;
+}
+
+.image_cadeau
+{
+	width: 20%;
+}
+
+.form_toto
+{
+  margin-left: 62%;
+}
+
+ form
+ {
+ 	border-radius: .4em;
+	background: white;
+	width:100%;
+	height: 130%;
+	opacity: 0.9;
+	border-color: white;
+	border-style: solid;
+  border-width: 5px;   
+ }
+
+.lien_menu
+{
+
+	background: white; cursor: pointer; color: #39002c; 
+}
+
+body { 
+	
+	background: url(/images/style3.jpg) no-repeat fixed; 
+	position: absolute;
+    background-size: cover; 
+    margin: auto; 
+	padding: auto;
+	
+	}
+
+h1
+{ 
+	display: inline-block;
+	font-family: "Poiret One"; 
+	font-size: 70px;
+}
+
+.h1_titre2
+{
+	color: white;
+	display: block;
+	margin-top: 12%;
+	margin-left: 18%;
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+}
+
+.h1_titre_collection
+{
+	color: white;
+	display: block;
+	margin-top:11%;
+	margin-left: 1%;
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+	font: "Poiret One";
+	padding-left: 22%;
+	margin-bottom: 2%;
+}
+
+.titre_style
+{
+  color : white;
+  text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+  font-family: "Poiret One";
+  font-size: 50px;
+  margin-left: 1%;
+  padding-left: 37%;
+  border: 2px solid white;
+  border-right: 2%;
+  border-color: white;
+  background: #39002c;
+  margin-right: 1%;
+  padding-top: 1%;
+  margin-top: 5%;
+}
+
+.titre_produit
+{
+  color : white;
+  text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+  font-family: "Poiret One";
+  font-size: 50px;
+  padding-left: 24%;
+  padding-top: 1%;
+  border: 2px solid white;
+  border-right: 2%;
+  border-color: white;
+  background: #39002c;
+  margin-right: 13%;
+  margin-top: 18%;
+  margin-left: 15%;
+}
+
+.image_produits
+{
+	width: 22.7%;
+    height: 26%;
+    display: inline-block;
+    opacity: 1;
+    padding-left: 15%;
+    margin-bottom: 0%;
+    padding-bottom: 3%;
+}
+
+.image_produits2
+{
+	width: 47%;
+    height: 26%;
+    display: inline-block;
+    opacity: 1;
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.image_6
+{
+	float:  left;
+	width: 80px;
+	height: 66px;
+    display: inline-block;
+    color : #decbbd;
+    position: absolute;
+    top: 22px;
+    left: 8px; 
+}
+
+.image_8
+{
+	float:  right;
+	width: 4%;
+	height: 24%;
+    display: inline-block;
+    color : #decbbd;
+    position: absolute;
+    top: 17px;
+    right: 13px; 
+}
+
+.image_langue
+{
+    float:  right;
+	width: 2%;
+	height: 12%;
+    display: inline-block;
+    color : #decbbd;
+    position: absolute;
+    top: 17px;
+    right: 5%; 
+
+}
+
+.image_7
+{
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: .4em;
+	margin-left: 6%;
+}
+
+.contenu_blanc
+{
+
+	background: white;
+	width:100%;
+	height: 150%;
+	opacity: 0.8;
+
+}
+
+
+.sidebar
+{
+	float:right;
+    padding-left:4px;
+    color: black;
+    margin-right: 4%;
+    width: 15%;
+    background: white;
+    opacity: 0.8;
+    margin-top: 0%;
+    border-radius: .4em;
+
+}
+
+.contenu
+{
+    font-family: 'Luckiest Guy';
+    font-size: 1em;
+    color: #CBE9CF;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    padding-left: 6%;
+    padding-right: 4%;
+    margin-top: 7%;
+}
+
+
+
+#accordion input 
+{
+	display: none;
+}
+
+#accordion label 
+{
+	background: white;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	opacity: 1.2;
+}
+
+#accordion label:hover 
+{
+	background: #ccc;
+}
+
+#accordion input:checked + label 
+{
+	background: #ccc;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+
+#accordion article 
+{
+	background: white;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+
+
+#accordion input:checked ~ article 
+{
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+
+
+table 
+{
+	width: 30%;
+	height: 15%;
+	display: inline-block;
+    opacity: 1;
+    width: 20%;
+    padding-left: 29%;
+    margin-top: 18%;
+    border-width: 180%;
+    border-color: #688F96;
+    margin-bottom: -1%;
+}
+
+th
+{
+	background: white;
+	width: 30%;
+
+}
+td 
+{
+
+	font-family: "Times New Roman"; 
+    border: 1px solid  ; /* auront une bordure de 1px */
+    color: #39002c;
+    border-color: white;
+    text-align: center;
+    background: white;
+}
+
+th
+{
+	width: 25%;
+}
+
+
+footer
+{
+	font-height: bold; font-size: 64%; background: #39002c; width:  60%; color: white; line-height: 6em; padding-bottom: 1%;border-radius: 10px 10px 0px 0px; font-family: Georgia,Times; opacity: 1;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h2
+{
+  display: inline-block;
+  font-family: 'Luckiest Guy' , cursive;
+  text-shadow: white 2px 2px, white -2px 2px, white -2px -1px, white 2px -1px;
+  font-size: 65px;
+  color:#39002c;
+  opacity: 0.9;
+
+}
+
+h4
+{
+  color:white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  text-align: center;
+}
+
+.button_affichage
+{
+  color:white;
+  height: 80%;
+  width: 200%;
+  font-family: 'Luckiest Guy' , cursive;
+  font-size: 16px;
+  margin-left: 16%;
+
+}
+
+.title_name
+{
+  background: #39002c;
+  cursor: pointer;
+  display: block;
+  margin-bottom: .125em;
+  padding: .25em 1em;
+  font-family: 'Luckiest Guy' , cursive;
+}
+
+.linked_accueil
+{
+  color: white;
+  font-family: 'Luckiest Guy' , cursive;
+  padding-left: 35%;
+  font-size: 100px;
+  cursor: pointer; color: white; 
+}
+
+.linked_accueil:hover
+{
+  color: grey;
+  text-decoration: none;
+}
+
+.articles
+{
+  color: white;
+  top:150%;
+  font-family: 'Luckiest Guy' , cursive;
+  font-size: 17px;
+  cursor: pointer; color: white;
+  text-decoration: none;
+  text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+
+}
+
+.bouton_Ajouter
+{
+  color: grey;
+  top: 22%;
+  left: 45%;
+  position: fixed;
+}
+
+.bouton_Ajouter2
+{
+   color: grey;
+  top: 40%;
+  left: 45%;
+  position: fixed;
+}
+
+.button_login
+{
+  top:20%;
+
+}
+
+.bouton_comment
+{
+  width: 30px;
+}
+
+.admin
+{
+  color: white;
+  top:200%;
+  font-family: 'Luckiest Guy' , cursive;
+  font-size: 17px;
+  cursor: pointer; color: white;
+  text-decoration: none;
+  text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+  left: 20px;
+}

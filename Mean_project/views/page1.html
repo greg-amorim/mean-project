@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>HipsterShop</title>
+    <link rel="icon" type="image/png" href="photos/hipster_favicon.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+    <script src="angular.min.js"></script>
+    <script src="test_angular.js"></script>
+    <script src='http://code.jquery.com/jquery.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+  
+  </head>
+   
+<body ng-controller="myControl">
+  <header>
+<div> 
+<a href="/logout"><img src="images/logout.png" class="image_8" ></a>
+</div>
+<div> 
+<img src="images/8_1.png" class="image_6">
+</div>
+
+<div class="header">
+HipsterShop
+</div>
+
+<!-- menu cliquable -->
+<div class="liste">
+     <span class="lien"
+         onclick="top.location.href='index.html'"> &nbsp&nbspAccueil
+     </span>
+     <span class="lien"
+         onclick="top.location.href='page1.html'"> &nbsp&nbspArticles
+     </span>
+
+</div>
+</div>
+</header>
+<div  class = "admin" ng-click="affichage_user()">
+<div ng-if="adm">
+  <div class="bouton_Ajouter"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Add article</button></div>
+</div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Add article</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form_group">
+            <p>Article&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type:'text' ng-model="user.article" placeholder='Enter your article'></p>
+            <p>Comment <textarea name="message" rows="10" cols="40" placeholder='Enter comments' ng-model="user.comment"></textarea></p>
+          </div>
+          
+        </form>
+       &nbsp&nbsp<button type="button"  ng-click="traitForm()" class="btn btn-default" data-dismiss="modal">Register</button>
+      </div>
+        
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br>
+<div class = "articles" ng-repeat="article in art">
+            <ul>
+
+               <p><strong>{{article.article}}</strong> </p>
+                <textarea name="message" rows="1" cols="40" placeholder='Enter Username' >{{article.comment}}</textarea>
+                <a ng-if="adm" class = "articles" href='#' ng-click='supr(article)' title="Supprimer"><img src="images/supprimer.png"></a>
+                <div ng-if="Nadm" ><textarea class="form-control" rows="3" ng-model="t.comment" ></textarea><button type="button" ng-click="formC">Register</button></div>
+                <br>
+            </ul>   
+</div>
+<div class="admin" ng-click="affichage_user()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAdmin or not ?
+             <div ng-if="Nadm">
+                <div><h2>&nbsp&nbsp&nbsp&nbspLooseerrrrrr</h2></div>
+            </div>
+<br>
+
+  
+
+</body>
+</html>
+

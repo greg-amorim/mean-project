@@ -1,0 +1,50 @@
+!!! 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='/css/bootstrap.min.css', rel='stylesheet', media='screen')
+    link(rel='stylesheet', href='css/style.css')
+    script(src='http://code.jquery.com/jquery.js')
+    script(src='js/bootstrap.min.js')
+  body  
+    
+
+    
+    .button_login
+      br
+      &nbsp&nbsp&nbsp
+      button.btn.btn-primary(type='button', data-toggle='modal', data-target='#exampleModal', data-whatever='@getbootstrap') LOGIN
+    #exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+            h4#exampleModalLabel.modal-title Login page
+          .modal-body
+            .container
+              form(role='form', action="/",method="post")
+                .form-group
+                   input.form-control(type='text', name="username", placeholder='Enter Username')
+                .form-group
+                 input.form-control(type='password', name="password", placeholder='Password')
+                button.btn.btn-default(type='submit') Submit
+    
+
+    br 
+    .form_toto
+     h2 Inscription
+     form(role='form', action="/register",method="post", style='max-width: 300px;')
+      .form-group
+          input.form-control(type='text', name="username", placeholder='Enter Username')
+      .form-group
+        input.form-control(type='text', name="role", placeholder='Role')
+      .form-group
+        input.form-control(type='password', name="password", placeholder='Password')
+      button.btn.btn-default(type='submit') Validation 
+      h4= info  
+ 
+  
+  
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
